@@ -1,0 +1,17 @@
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\bin\Debug\net6.0\Models.dll
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\bin\Debug\net6.0\Models.pdb
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\Rheya-Hem\source\repos\RealtorAPI\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
