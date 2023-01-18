@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'SampleRealtorAPI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4129CB0B42524A63AC9862DFA65D2DFB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_79BFAD370E7F46118B5EEC1DBA5BA2BC }}
           package: .
