@@ -26,6 +26,7 @@ builder.Services.AddMvc(options =>
     options.InputFormatters.Add(new XmlSerializerInputFormatter(options));
     options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
 });
+builder.Services.AddScoped<CustomExceptionFilter>();
 //builder.Services.AddControllers(options => options.Filters.Add<>());
 var apiKey = builder.Configuration.GetSection("ApiKey").ToString();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
@@ -38,7 +39,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateAudience=false,
         IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(apiKey))
     });
-
 builder.Services.AddCors(options=>
 {
     options.AddPolicy(name:"Default",policy =>
@@ -50,7 +50,6 @@ builder.Services.AddCors(options=>
 });
 
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

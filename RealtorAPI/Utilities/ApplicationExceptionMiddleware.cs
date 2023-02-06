@@ -10,6 +10,7 @@ namespace RealtorAPI.Utilities
             request = next;
         }
 
+        
         public async Task Invoke(HttpContext httpContext)
         {
             try

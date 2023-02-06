@@ -7,6 +7,7 @@ using System.Text;
 
 namespace RealtorAPI.Controllers
 {
+    [CustomExceptionFilter]
     public class UserController : ControllerBase
     {
         IUnitOfWork unitOfWork;
@@ -23,6 +24,7 @@ namespace RealtorAPI.Controllers
             string authHeader = HttpContext.Request.Headers["Authorization"];
             if(authHeader != null)
             {
+               
                 var data = authHeader.Split(' ')[1];
                 var credential=Encoding.UTF8.GetString(Convert.FromBase64String(data));
                 var email = credential.Split(':')[0];
@@ -42,6 +44,7 @@ namespace RealtorAPI.Controllers
         [HttpPost]
         public IActionResult AddUser([FromBody]UserInfo userInfo)
         {
+            throw new NullReferenceException();
             var user = unitOfWork.UserRepository.Get(u => u.Email == userInfo.Email);
             if (user == null)
             {
